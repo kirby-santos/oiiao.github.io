@@ -3,7 +3,7 @@ import Oiiao from './components/Oiiao';
 
 function App() {
   return (
-    <div className="App">\
+    <div className="App">
       <div className="mainCat">
         <Oiiao className="mainCat"/>
       </div>

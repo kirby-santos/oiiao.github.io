@@ -30,10 +30,13 @@ function Oiiao() {
             width={"1080px"}
             height={"600px"}
              />
-             <h1>You've oiiao'd {counter} times.</h1>
-            {
-                playing ? <SmallOiiao/> : null
-            }
+             <h1>you've oiiao'd {counter} times.</h1>
+             {
+                counter === 69 && playing ? <p>{"(get some help)"}</p> : null
+             }
+             {
+                playing && counter>0 ? <SmallOiiao counter={counter} /> :  null
+             }
             
         </span>
     )
